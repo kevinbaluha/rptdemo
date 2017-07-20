@@ -1,0 +1,45 @@
+{ 
+     title: "Rapid Personal Transformation"
+     ,menu: [ 
+            {url: "/en/Technologies/About/RPT",label: "ABOUT US" }
+            ,{url: "/en/Technologies/About/RPT",label: "NEWS" }
+            ,{url: "/en/Technologies/About/RPT",label: "BLOG" }
+            ,{url: "/en/Technologies/About/RPT",label: "CONTACT US" }
+            [
+    ,login: [ { url: "/en/Account/Login", label: "LOGIN" }]
+    ,language:{ img: "/Content/theme/images/flag-icon-gb.png", code: "EN", url: "", label: "ENGLISH" }
+    ,languages:[ 
+               { img: "/Content/theme/images/flag-icon-gb.png", code: "EN", url: "", label: "ENGLISH" }
+              ,{ img: "/Content/theme/images/flag-icon-ru.png", code: "RU", url: "", label: "РУССКИЙ" }
+               ]
+    ,search: "Search..."
+    ,navbar: [ 
+            {title:"Discover RPT", menu: [
+                {url: "/en/Technologies/About/RPT",label: "ABOUT US", class: "dnode" }
+               ,{url: "/en/FAQ",label: "FAQ", class: "dnode" }
+                ]}
+            ,{ title: "Learn RPT",  menu : [
+                {url: "/en/Courses",label: "Courses", class: "dnode" , divider:false}
+                ,{url: "/en/Trainers",label: "Trainers", class: "cpath", divider:false  }
+                ,{url: "/en/testimonials/learning",label: "Testimonials", class: "dnode", divider:false  }
+                ,{url: "/en/Events",label: "Schedule", class: "dnode", divider:{ class: "divider tiny"  }}
+                ]}
+            ,{ title: "Consultations", menu : [
+                {url: "/en/about-consultations",label: "About Consultations", class: "dnode" , divider:false}
+                ,{url: "/en/Therapists",label: "Therapists", class: "cpath", divider:false  }
+                ,{url: "/en/testimonials/sessions",label: "Testimonials", class: "cpath", divider:false  }
+                ]}
+    
+            ,{ title: "Resources", menu : [
+                {url: "/en/blog",label: "Blog", class: "dnode" , divider:false}
+                ,{url: "/en/books",label: "Books", class: "cpath", divider:false  }
+                ,{url: "/en/Search",label: "Search", class: "dnode", divider: {class: "divider tiny" }  }
+                ]}
+            ]
+        content: [
+                {row:"row_1", content-class: "col-sm-6", hl1: "The most effective way to make permanent changes", hl2: "in your life, health & relationships", content : "<div class="home_video"><a href=\"https://www.youtube.com/watch?v=MKWWhf8RAV8\" class=\"youtubepopover\"><div class=\"video_ico\"><i class=\"fa fa-caret-right fa-3x\" aria-hidden=\"true\"></i></div><div class=\"home_video_text\">VIEW VIDEO</div></a></div>", sub-content-class: " col-xs-12 hidden-sm hidden-md hidden-lg nopadding hidden_background" sub-content: ""}
+                ,{row:"row_3", content-class: "col-sm-8", hl1: "Discover RPT", hl2: false, content : "<div class="col-sm-12"><div class="col-sm-4"><div class="action_describe">The only technique that gives permanent results</div><div class="action_link"><a href="#"><div class="hidden-xs">DISCOVER RPT </div>HOW IS RPT DIFFERENT?</a></div></div><div class="col-sm-4"><div class="action_describe">Eliminates problems & sabotage patterns without needing to describe or re-experience them</div><div class="action_link"><a href="#">HOW IT WORKS</a></div></div><div class="col-sm-4"><div class="action_describe">A vital tool for therapists and ideal for your personal growth</div><div class="action_link"><a href="#">BECOME A THERAPIST<br>LEARN TO HEAL YOURSELF</a></div></div></div>", sub-content-class: "container layout hidden-lg hidden-md hidden-sm hidden_action" sub-content: "<h2>RPT Eliminates problems & sabotage patterns</h2><div class="action_describe">without needing to describe or re-experience them</div><div class="action_link"><a href="#">HOW IT WORKS</a></div>"} 
+                ,{row:"row_2", content-class: "col-sm-12", hl1: "Rapid Personal Transformation", hl2: "Therapy & personal development done right<", content : "<div class="col-sm-12"><div class="col-sm-4"><div class="action_describe">The only technique that gives permanent results</div><div class="action_link"><a href="#"><div class="hidden-xs">DISCOVER RPT </div>HOW IS RPT DIFFERENT?</a></div></div><div class="col-sm-4"><div class="action_describe">Eliminates problems & sabotage patterns without needing to describe or re-experience them</div><div class="action_link"><a href="#">HOW IT WORKS</a></div></div><div class="col-sm-4"><div class="action_describe">A vital tool for therapists and ideal for your personal growth</div><div class="action_link"><a href="#">BECOME A THERAPIST<br>LEARN TO HEAL YOURSELF</a></div></div></div>", sub-content-class: "container layout hidden-lg hidden-md hidden-sm hidden_action" sub-content: "<h2>RPT Eliminates problems & sabotage patterns</h2><div class="action_describe">without needing to describe or re-experience them</div><div class="action_link"><a href="#">HOW IT WORKS</a></div>"} 
+            
+                ]
+}
